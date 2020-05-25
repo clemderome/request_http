@@ -1,0 +1,36 @@
+### GET wilders in PHP list
+GET https://http-practice.herokuapp.com/wilders/
+
+### GET wilder's list
+GET https://http-practice.herokuapp.com/wilders/?language=PHP&page=4
+
+### POST Clem Diroma
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/x-www-form-urlencoded
+
+name=Clem%20Diroma&language=JavaScript
+
+### POST Gigotine Pomdapi
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/json
+
+{
+  "name": "Gigotine Pomdapi",
+  "language": "JavaScript"
+}
+
+### GET Gigotine Pomdapi
+GET https://http-practice.herokuapp.com/wilders/2021
+Accept: application/json
+
+### PUT Gigotine Pomdapi
+PUT https://http-practice.herokuapp.com/wilders/2021
+Accept: application/json
+
+{
+    "name": "Gigotine Pomdapi",
+    "language": "PHP"
+}
+
+### DELETE Gigotine Pomdapi
+DELETE https://http-practice.herokuapp.com/wilders/2021
